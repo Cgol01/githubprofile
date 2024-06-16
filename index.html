@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO --> 
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Cris</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>    
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN INICIO --> 
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="imagen .jpg" alt="">
+            </div>
+            <h1>CRISTHIAN OLIVAR</h1>
+            <h2>Servicio al cliente - Desarrollador Web</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Cristhian Olivar.</span> Licenciado en idioma español e inglés en la Universidad del Tolima,
+                con capacidades de planificación, gestión e investigación, con excelentes habilidades de venta.
+                A través de una experiencia de más de 3 años en los sectores administrativo, educativo y comercial he llegado a desarrollar
+                habilidades de trabajo en equipo, innovación y liderazgo.</p>
+
+                <div class="fila">
+                    <!--datos personales-->
+                    <div class="col">
+                        <h3>Datos personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                01-02-1995
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                +57 316 430 0058
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                cgolivar0102@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                www.ejemplo.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                calle 128b #53a-33
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                <span>AGENTE TELEFÓNICO BILINGUE</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-chess"></i>
+                                <span>AJEDREZ</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-table-tennis-paddle-ball"></i>
+                                <span>&nbsp TENIS DE &nbsp&nbsp&nbsp&nbspMESA</span> 
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book-open"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-pen"></i>
+                                <span>ESCRITURA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>DEPORTES</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+        </div>
+    </section>
+
+    <!--SECCIÓN SKILLS-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical skills-->
+                <div class="col">
+                    <h3>Technical skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>57%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>72%</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="skill">
+                        <span>Node.JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional skills-->
+                <div class="col">
+                    <h3>Professional skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>87%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Literatura y bilinguismo</h4>
+                        <span class="casa">Universidad del Tolima</span>
+                        <span class="fecha">2015 - 2020</span>
+                        <p>Mi formación académica en esta prestigiosa institución regional, estuvo enfocada mayormente hacia la educación y el ejercicio investigativo. Allí tuve la oportunidad de recibir una formación con bases sólidad en el bilinguismo</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Taller de técnica vocal</h4>
+                        <span class="casa">Universidad del Tolima</span>
+                        <span class="fecha">2019</span>
+                        <p>Durante el tiempo que hice parte del taller aprendí técnicas de vocalización, proyección de voz y entonación proyectada en ambientes acústicos.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Negociación efectiva para cerrar negocios</h4>
+                        <span class="casa">Platzi</span>
+                        <span class="fecha">2023</span>
+                        <p>Este curso orientado a la consecución de objetivos de negociación en diferentes industrias tecnológicas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Comunicación estratégica</h4>
+                        <span class="casa">Capital one</span>
+                        <span class="fecha">2023</span>
+                        <p>Luego de finalizar este curso mejoraron mis habilidades de venta y mi capacidad organizativa en ambientes laborales de liderazgo se vio ampliamente influenciada de manera positiva.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Asesor de ventas</h4>
+                        <span class="casa">Claro Movil</span>
+                        <span class="fecha">2016 - 2018</span>
+                        <p>Mi rol sobre consultoría y cierre de ventas de dispositivos electrónicos me permitió tener un mayor contacto con clientes del sector tecnológico.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asistente administrativo</h4>
+                        <span class="casa">Hotel Pijaos</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>Dentro de mis labores en este prestigioso hotel del municipio de Espinal estaba incluido el manejo de personal, soporte de tipo contable y supervisión general.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Asesor virtual</h4>
+                        <span class="casa">Tp-link</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Mi trabajo como soporte ejecutivo, encargado principalmente de la redacción y traducción de documentos me permitió entrar directamente en contacto con el sector de las telecomunicaciones y las redes wifi.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Representante de servicio al cliente</h4>
+                        <span class="casa">Uber</span>
+                        <span class="fecha">2023</span>
+                        <p>Durante mis estancia en la empresa fui parte del equipo de soporte técnico para empresas con perfiles corporativos, sumado a funciones de venta para tiquetes de comida a domicilio y renta de vehículos</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Representante de servicio al cliente</h4>
+                        <span class="casa">Capital One</span>
+                        <span class="fecha">2023-2024</span>
+                        <p>Mi trabajo consistió en asistir el equipo de cobranza para tarjetas de crédito en estado de mora adscritas a la entidad bancaria.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN PORTFOLIO-->   
+    <section class="portfolio" id="portfolio"   >
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="foto1.png" alt="">
+                    <div class="overlay">
+                        <h3>Calculadora básica</h3>
+                        <p>Desarrollo apps web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto2.png" alt="">
+                    <div class="overlay">
+                        <h3>Juego piedra, papel o tijera</h3>
+                        <p>Desarrollo apps web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto3.png" alt="">
+                    <div class="overlay">
+                        <h3>reloj</h3>
+                        <p>Desarrollo apps web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto4.png" alt="">
+                    <div class="overlay">
+                        <h3>Generador de contraseña</h3>
+                        <p>Desarrollo apps web</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="foto5.png" alt="">
+                    <div class="overlay">
+                        <h3>Lista de tareas</h3>
+                        <p>Desarrollo apps web</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCIÓN CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="map.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Bogotá Suba, Calle 128b #53a-33
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llámanos: + 57 316 430 0058
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: cgolivar0102@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!--F O O T E R-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
